@@ -13,7 +13,7 @@ For TODO item, be sure to change it to say DONE when you have successfully compl
 // DONE: Write your code here
 function sum(a,b){ //eslint-disable-line
   var theMath = a + b;
-  var theWords = 'The sum of ' + a + ' and ' + b + ' is ' + theMath;
+  var theWords = 'The sum of ' + a + ' and ' + b + ' is ' + theMath + '.';
   return [theMath, theWords];
 }
 
@@ -30,13 +30,15 @@ Write a function called multiply() that takes in two numbers as arguments and re
 
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
-// TODO: Write your code here
+// DONE: Write your code here
 function multiply(a,b){ //eslint-disable-line
-
+  var multi = a * b;
+  var multiWords = 'The product of ' + a + ' and ' + b + ' is ' + multi + '.';
+  return [multi, multiWords];
 }
 
-// TODO: Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+// DONE: Here is the test for multiply(); uncomment it to run it
+testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
